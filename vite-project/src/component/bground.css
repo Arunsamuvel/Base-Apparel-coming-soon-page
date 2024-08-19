@@ -1,0 +1,53 @@
+.bground {
+  background-image: url(../assets/bg-pattern-desktop.svg);
+  background-position: center;
+  width: 1000px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: ;
+}
+.logo {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  bottom: 100px;
+  right: 150px;
+}
+.text4 {
+  width: 500px;
+}
+.text3,
+.text1,
+.text2 {
+  width: 500px;
+  font-size: 72px;
+  text-align: left;
+  position: relative;
+  /* right: 100px; */
+}
+.text4,
+.text1 {
+  color: hsl(0, 36%, 70%);
+}
+.text1 {
+  font-weight: 300;
+  margin-top: 25px;
+}
+.text4 {
+  margin: 20px 0 40px 0;
+  font-weight: 600;
+}
+.text2,
+.text3 {
+  font-weight: 600;
+}
+.error {
+  display: none;
+}
